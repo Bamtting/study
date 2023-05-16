@@ -1,0 +1,64 @@
+@charset "utf-8";
+.wrap{
+    width: 100%;
+    }
+.inner{
+    width: 1200px;
+    height: 700px;
+}
+.header{
+    
+    width: 1200px;
+    height: 100px;
+}
+.logo{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+.manu{
+    width: 1000px;
+    height: 100px;
+}
+.slider{
+    width: 1200px;
+    height: 300px;
+}
+.content{
+    width: 1200px;
+    height: 200px;
+}
+.gail{
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+.banner{
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+.link{
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+.footer{
+    width: 1200px;
+    height: 100px;
+}
+.f-logo{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+.copyright{
+    float: left;
+    width: 800px;
+    height: 100px;
+}
+.sns{
+    float: left;
+    width: 200px;
+    height: 100px;
+}

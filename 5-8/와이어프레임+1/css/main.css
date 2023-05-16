@@ -1,0 +1,88 @@
+@charset "uft-8";
+.wrap{
+    width: 100%;
+}
+.inner{
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+}
+/* 헤더 영역 */
+header{
+    width: 1200px;
+    height: 100px;
+}
+.logo{
+    float: left;
+    background-color: aliceblue;
+    width: 1000px;
+    height: 100px;
+}
+.manu{
+    float: left;
+    background-color: aliceblue;
+    width: 200px;
+    height: 100px;
+}
+/* 슬라이드 영역 */
+.silde img{
+    position: absolute;
+    transform: translate(-50%, -50%);
+        left: 50%;
+    top: 50%;
+}
+.silde{
+    position: relative;
+        background-color: aliceblue;
+    width: 1200px;
+    height: 300px;
+}
+/* 콘텐츠 영역 */
+content{
+    width: 1200px;
+    height: 200px;
+}
+.gail{
+    float: left;
+    background-color: aliceblue;
+    width: 400px;
+    height: 200px;
+}
+.gail img{
+    margin: auto;
+}
+.banner{
+    float: left;
+    background-color: aliceblue;
+    width: 400px;
+    height: 200px;
+}
+.link{
+    float: left;
+    background-color: aliceblue;
+    width: 400px;
+    height: 200px;
+}
+/* 푸터 영역 */
+footer{
+    width: 1200px;
+    height: 100px;
+}
+.f-logo{
+    float: left;
+    background-color: aliceblue;
+    width: 200px;
+    height: 100px;
+}
+.copyright{
+    float: left;
+    background-color: aliceblue;
+    width: 800px;
+    height: 100px;
+}
+.sns{
+    float: left;
+    background-color: aliceblue;
+    width: 200px;
+    height: 100px;
+}

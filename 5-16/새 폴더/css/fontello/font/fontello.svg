@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2023 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="search" unicode="&#xe800;" d="M335 246l25-25q-28-28-85-86t-73-74l-27 27q16 15 74 73t86 85z m245 551q136 0 234-97t97-234-97-234-234-96q-64 0-123 24l-255-257-184 185 256 255q-26 63-26 123 0 137 98 234t234 97z m0-551q91 0 155 64t64 156-64 155-155 64-156-64-64-155 64-156 156-64z" horiz-adv-x="928" />
+
+<glyph glyph-name="music" unicode="&#xe801;" d="M753 794q11 2 20-6t8-20l0-629q0-53-45-91t-111-39-111 39-45 91 45 93 111 39l0 193-312-32 0-396q0-54-46-92t-111-38-110 38-46 92 46 92 110 38l0 537q0 10 7 18t16 8z" horiz-adv-x="781" />
+
+<glyph glyph-name="mail" unicode="&#xe802;" d="M834 688q44 0 74-30t30-74l0-468q0-43-30-74t-74-30l-730 0q-44 0-74 30t-30 74l0 468q0 44 30 74t74 30l730 0z m-421-454l-82 72-190-190 655 0-190 190-81-72q-24-20-56-20t-56 20z m-309-82l187 189-187 163 0-352z m542 189l188-188 0 351z m188 243l-730 0 0-11 342-300q9-7 23-7t22 7l343 300 0 11z" horiz-adv-x="938" />
+
+<glyph glyph-name="facebook" unicode="&#xf30c;" d="M500 644l-142 0q-14 0-25-15t-11-37l0-102 178 0 0-148-178 0 0-442-170 0 0 442-152 0 0 148 152 0 0 86q0 94 59 159t147 65l142 0 0-156z" horiz-adv-x="500" />
+</font>
+</defs>
+</svg>

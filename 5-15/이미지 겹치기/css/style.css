@@ -1,0 +1,99 @@
+@charset "utf-8";
+*{
+    list-style: none;
+}
+h1{
+    text-align: center;
+}
+
+.bg-1{
+    width: 340px;
+    margin: 0 auto;
+    background-color: aqua;
+    position: relative;
+}
+
+.bg-1 .images2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.bg-1:hover .images2{
+    display: block;
+}
+
+.bg-2{
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.images3{
+    width: 395px;
+    height: 394px;
+
+}
+
+.bg-2 .images4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* 디스플레이 적용시 */
+    /* display: none; */
+    opacity: 0;
+    transition: opacity 0.3s linear;
+    
+}
+
+.bg-2:hover .images4{
+    /* display: block; */
+    opacity: 1;
+}
+
+.back{
+    width: 1000px;
+    height: 550px;
+    background-image: url(../images/images6.jpg);
+    
+
+}
+
+.back:hover{
+    background-image: url(../images/images7.jpg);
+}
+
+.gallery{
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.gallery h3{
+    text-align: center;
+}
+
+
+.gallery li{
+    float: left;
+    width: 250px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.gallery a:hover img{
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.gallery a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gallery img{
+    transition: 0.3s;
+}
+

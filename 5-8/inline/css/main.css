@@ -1,0 +1,66 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+ul,li{
+    display: inline-block;
+    }
+span{
+    text-align: center;
+    background-color: mediumspringgreen;
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.라쿤1{
+    display: inline-block;
+    border-radius: 100%;
+    border: 8px solid;
+    margin: 10px;
+}
+h1{
+    display: inline-block;
+}
+h2{
+    display: inline-block;
+}
+.box1{
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+width: 100px;
+height: 100px;
+background-color: aquamarine;
+}
+.box2{
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+width: 100px;
+height: 100px;
+background-color: rgb(150, 127, 255);
+}
+.box3{
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+width: 100px;
+height: 100px;
+background-color: rgb(127, 187, 255);
+}
+.h1{
+    display:inline;
+    width: 50px;
+    height: 60px;
+    background-color: blue;
+}
+li{
+    background-color: aqua;
+    list-style: none;
+    margin: 25px;
+    width: 300px;
+    height: 300px;
+}

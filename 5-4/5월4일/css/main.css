@@ -1,0 +1,32 @@
+@charset "uft-8";
+body{
+    background-image: url(../images/다운로드.jpg);
+    background-repeat: no-repeat;
+    background-position: 130px 150px;
+}
+.my{
+    width: 350px;
+    background-color: grey;
+    padding: 20px;
+    margin: 10px;
+    border: 5px dotted #222;
+}
+#my1{
+    background-clip: border-box;
+}
+#my2{
+    background-clip: padding-box;
+}
+#my3{
+    background-clip: content-box;
+}
+ul{
+    list-style: none;
+}
+li{
+    background-image: url(../images/book.png);
+    background-repeat: no-repeat;
+    background-size:10%;
+    padding: 5px;
+    margin: 10px;
+}

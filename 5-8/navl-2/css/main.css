@@ -1,0 +1,33 @@
+@charset "utf-8";
+div{
+    
+}
+.A1{
+    float: left;
+    border: 1px solid;
+    margin: 0px auto;
+    width: 200px;
+    height: 200px;
+}
+.A2{
+        border: 1px solid;
+    margin: 0px auto;
+        width:200px;
+    height: 200px;
+   
+    }
+.A3{
+    float: left;
+    border: 1px solid;
+    margin: 10px auto;
+        width: 200px;
+    height: 200px;
+
+}
+
+.A4{
+        border: 1px solid;
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+}

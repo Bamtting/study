@@ -1,0 +1,62 @@
+@charset "utf-8";
+.body{
+margin: 0;
+}
+h1{
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    margin: 20px auto;
+}
+.p1{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(255, 127, 127);
+    text-align: center;
+    color: aqua;
+    padding: 20px;
+    margin: 10px 20px;
+    line-height: 50px;
+    border: outset;
+    border-width: 10px 20px 30px 40px;
+}
+.p2{
+    display: inline;
+    width: 50%;
+    height: 50px;
+    background-color: rgb(255, 127, 127);
+    text-align: center;
+    color: aqua;
+    padding: 20px;
+    margin: 20px;
+    line-height: 50px;
+    border: 5px solid coral;
+    border-width: thick ;
+}
+.p3{
+    display: inline;
+    height: 50px;
+    width: 350px;
+    background-color: rgb(255, 127, 127);
+    text-align: center;
+    color: aqua;
+    padding: 20px;
+    margin: 20px;
+    line-height: 50px;
+    border: 8px double;
+    border-radius: 50%;
+}
+.라이언{
+    display: block;
+        margin: auto;
+    border-radius: 100px;
+}
+.dog{
+    max-width: 100%; 
+    height: auto; 
+    border:20px inset #eaeaea; 
+    padding: 0px;
+    border-radius: 20%;
+}
