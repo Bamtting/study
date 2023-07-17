@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>할일 목록</h1>
+<input type="text" id="newTaskInput" placeholder="할일을 입력하세요.">
+
+<button onclick="addTask()">추가</button>
+
+<ul id="taskList">
+    <!-- 할일이 여기에 동적으로 추가됩니다. -->
+</ul>
+    <script>
+        // 새로운 할일을 추가하는 함수
+        function addTask(){
+            var newTaskInput = document.getElementById("newTaskInput");
+            var taskList = document.getElementById("taskList");
+            // 입력된 내용 가져오기
+            var taskText = newTaskInput.value;
+            // li 요소 만들기
+            var newText = document.createElement("li");
+            // li 요소에 textContent를 설정 
+            newText.textContent = taskText;
+            taskList.appendChild(newText);
+            // 입력 필드 비우기
+            newTaskInput.value = "";
+        }
+        
+    </script>
+</body>
+</html>

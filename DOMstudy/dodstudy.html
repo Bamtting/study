@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>웹 프로그래밍</h1>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ul>
+    <script>
+        // 1.요소 노드 만들기-createElement()메서드
+        // 기본형 document.createElement(노드명);
+        var newP = document.createElement("p");
+        // 2.텍스트 노드 만들기 - createTextNode()
+        // 기본형 document.createTextNode()
+        var txtNode = document.createTextNode("DOM은 document object model의 줄임말입니다.");
+        // 3.자식 노드 연결하기 - appendChild()메서드
+        // 기본형 부모노드.appendChild(자식노드)
+        newP.appendChild(textNode);
+        document.getElementById("info").appendChild(newP);
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>할일 목록</h1>
+    <ul id="itemList">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ul>
+    <div id="info"></div>
+    <script>
+        function addNEwItem(){
+            var itemList = document.getElementById("itemList");
+            // 새로운 <li>요소 생성
+            var newItem = document.createElement("li");
+            // 새로운 내용 가져오기
+            var task = prompt("새로운 할일을 입력하세요.");
+            // 새로운 텍스트 노드 생성
+            var textNode = document.createTextNode(task);
+            // <li>요소에 텍스트 노드를 추가
+            newItem.appendChild(textNode);
+            itemList.appendChild(newItem);
+        }
+        // 새로운 할일 항목 추가한것을 함수 호출
+        addNEwItem();
+        
+    </script>
+</body>
+</html>

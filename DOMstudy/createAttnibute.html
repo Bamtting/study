@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 속성추가하기</title>
+</head>
+<body>
+    <h1>이미지 속성 추가</h1>
+    <img src="images/다운로드.png" alt="D" id="myImage">
+    <script>
+        // 이미지 태그에 속성을 추가하는 함수
+        function addimageAttribute(){
+            var image = document.getElementById("myImage");
+            // 새로운 속성 객체 생성
+            var attribute = document.createAttribute("title")
+            // 속성 값을 설정
+            attribute.value = "설명을 추가한 이미지";
+            // 이미지 태그에 속성을 추가
+            image.setAttributeNode(attribute);
+        }
+        // 이미지 태그에 속성 추가 함수 호출
+        addimageAttribute();
+    </script>
+</body>
+</html>
