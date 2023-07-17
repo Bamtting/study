@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배열객체</title>
+</head>
+
+<body>
+
+    <script>
+
+        var nums = [1, 2, 3];
+        var chars = ["a", "b", "c", "d"];
+        //배열 2개 합치기
+        var numsChars = nums.concat(chars);
+        var charsNums = chars.concat(nums);
+        document.write(`nums에 chars합치면 : ${numsChars} 
+        ,<br> chars에 nums합치면: ${charsNums}`)
+        // 배열 내의 요소 합치기
+        var string1 = nums.join("===");
+        // console.log(nums);
+        console.log(string1);
+        var string2 = chars.join("-");
+        // console.log(chars);
+        console.log(string2);
+        document.write("<hr>");
+        // 요소 추가(push , unshift) =새로운 length 값을 반환
+        var ret1 = nums.push(4, 5);
+        document.write(`length : ${ret1} | 배열 : ${nums} <br>`)
+        console.log(nums);
+        var ret2 = nums.unshift(0);
+        // console.log(ret2);
+        document.write(`length : ${ret2} | 배열 : ${nums}`)
+        document.write("<hr>");
+// 요소 추출 (pop / shift)- 꺼낸 요소 반환
+var popped1 = chars.pop() //마지막 요소 꺼냄
+document.write(`꺼낸 요소 : ${popped1}, 배열 : ${chars} <br>`)
+var popped2 =chars.shift() //첫번재 요소 반환
+
+document.write(`꺼낸 요소 : ${popped2}, 배열 : ${chars}`)
+    </script>
+</body>
+
+</html>

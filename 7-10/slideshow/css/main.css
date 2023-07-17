@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+#container{
+    position: relative;
+}
+
+#container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0,0);
+}
+
+#container button{
+    z-index: 999;
+    position: absolute;
+}
+
+#container .buttonL{
+    top: 200px;
+    left: 20px;
+}
+#container .buttonR{
+    top: 200px;
+    left: 600px;
+}

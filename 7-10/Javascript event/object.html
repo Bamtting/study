@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>객체</title>
+</head>
+<body>
+    <script>
+        // 객체 기본형
+        // var now = new Date();
+        // document.write(`현재시각은 ${now} <br>`);
+        // document.write(`현재 시각은 ${now.toLocaleString()}`
+        // );
+        
+        //사용자 정의 객체
+        // var book = {
+        //     title : "자바스크립트", //제목
+        //     author : "홍길동", //저장
+        //     pages : 500 , //쪽수
+        //     price: 15000 //가격
+        // }
+
+        // 날짜 정보 객체
+        // var today = new Date();
+        // console.log(today.toLocaleString());
+        // var nowMonth = today.getMonth(),
+        // nowDate = today.getDate(),
+        // nowDay = today.getDay();
+        // document.write(`<h1>오늘 날짜 정보</h1>`);
+        // document.write(`현재 월: ${nowMonth}   월 입니다 <br>`);
+        // document.write(`현재 일: ${nowDate} <br>`);
+        // document.write(`현재 요일: ${nowDay}<br>`);
+
+        // var worldCup = new Date (2002 , 4 , 31);
+        // var theMonth = worldCup.getMonth(),
+        // theDate = today.getDate(),
+        // theDay = today.getDay();
+
+        // var weekdays = ["일" ,"월" ,"화","수","목","금","토"];
+        // var dayName = weekdays[theDay]
+
+        // document.write(`<h1>월드컵 날짜 정보</h1>`)
+        // document.write(`2002월드컵 몇 월 : ${theMonth}<br>`);
+        // document.write(`2002월드컵 몇 일 : ${theDate}<br>`);
+        // document.write(`2002월드컵 무슨 요일 : ${dayName}요일 입니다`);
+
+        
+        var tv = new Object();
+        tv.color = "white";
+        tv.price = 3000000;
+        tv.info = function() {
+            document.write (`tv 색상 : ${this.color} <br>`);
+            document.write (`tv 가격 : ${this.price} <br>`);
+        };
+        var car = {
+            color : "black",
+            price:210000000, 
+            info: function(){
+                document.write(`car색상 : ${this.color}<br>` )
+                document.write(`car가격 : ${this.price} <br>`)
+            }
+        };
+        
+        //tv 객체 불러오기
+        tv.info();
+        // car 객체 불러오기
+        car.info();
+        
+    </script>
+</body>
+</html>
