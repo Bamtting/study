@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가격비교 연산자</title>
+</head>
+<body>
+<h1>물건 가격 비교</h1>
+<label for="number">가격 1 :</label>
+<input type="number" id="price1">
+<label for="number">가격 2 :</label>
+<input type="number" id="price2">
+<button onclick="comparationPrice()">비교</button>
+<p id="result"></p>
+
+<script>
+    function comparationPrice() {
+        var price1 = document.getElementById("price1").value;
+        var price2 = document.getElementById("price2").value;
+        var resultElement = document.getElementById("result");
+
+        // if(price1 !== price2){
+        //     if(price1 > price2){
+        //         resultElement.textContent = 
+        //         "price1이 price2보다 더비싸요"
+        //     }
+        //     else{
+        //         resultElement.textContent = 
+        //         "price2가 price1보다 더비싸요"
+        //     }
+        // }
+        // else{
+        //     resultElement.textContent = "두 가격이 같아요"
+        // }
+        if(price1 !== "" && price1 !== ""){
+            if(price1 !== price2){
+                if (parseFloat(price1) > parseFloat(price2)){
+                resultElement.textContent = 
+                "price1이 price2보다 더비싸요"
+            }
+            else{
+                resultElement.textContent = 
+                "price2가 price1보다 더비싸요"
+            }
+        }else{
+            resultElement.textContent = "두 가격이 같아요"
+        }
+    }else{
+        resultElement.textContent = "가격을 입력해 주세요"
+    }
+        }
+    
+</script>
+</body>
+</html>

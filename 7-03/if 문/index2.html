@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>조건문</title>
+</head>
+<body>
+    <h1>3의 배수 확인</h1>
+    <label for="number">숫자 :</label>
+    <input type="number" id="number">
+    <button onclick="Ok()">확인</button>
+    <p id="result"></p>
+    
+    <script>
+    // function Ok() {
+    //     var userNumber = document.getElementById("number").value;
+    //     var resultElement = document.getElementById("result");
+    //     if(userNumber % 3 === 0) {
+    //         resultElement.textContent = userNumber + "은 3의 배수입니다.";
+    //     }else{
+    //         resultElement.textContent = userNumber + "은 3의 배수가 아닙니다.";
+    //     }
+    // }
+    
+    function Ok(){
+        var userNumber = document.getElementById("number").value;
+        var resultElement = document.getElementById("result");
+
+        if(userNumber !==""){
+            if(userNumber % 3 === 0 ){
+                resultElement.textContent = `${userNumber}는 3의배수 입니다.`;
+            }else{
+                resultElement.textContent = `${userNumber}는 3의배수 아닙니다.`;
+            }
+        }else{
+            resultElement.textContent = "숫자를 입력해주세요.";
+        }
+    }
+
+    </script>
+</body>
+</html>
