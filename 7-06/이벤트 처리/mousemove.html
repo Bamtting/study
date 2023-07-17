@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border: 2px solid black;
+        }
+        .box.clicked{
+            transform: rotate(180deg) ;
+            transition: 1s;
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>mousemove 이벤트 예제</h1>
+    <div class="box" onmousedown="handMouseMove(this)"></div>
+    <script>
+        function handMouseMove(element){
+            element.classList.add("clicked");
+        }
+    </script>
+</body>
+</html>

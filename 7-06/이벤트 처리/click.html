@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마우스 다운 이벤트</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border: 2px solid black;
+            transition: background-color 0.3s;
+        }
+        .box.clicked{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mousedown이벤트</h1>
+    <div class="box" onmousedown="handMouseDown(this)"></div>
+    <script>
+    function handMouseDown(element) {
+        element.classList.add("clicked");
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border: 2px solid black;
+      }
+      .box.active {
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mouseup이벤트</h1>
+    <div class="box" onmouseup="handMouseOut()"></div>  
+    <script>
+        function handMouseOut(){
+            var box = document.querySelector(".box");
+            box.classList.add("active")
+        }
+    </script>
+  </body>
+</html>
