@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>onclick 연습</title>
+  </head>
+  <body>
+    <button onclick="sayHello()">안녕</button>
+    <button onclick="showAlert()">경고</button>
+    <!-- 요소 가리기 -->
+    <button onclick="showElement()">보기</button>
+    <button onclick="hideElement()">가리기</button>
+    <div id="myElement" style="display: none">
+      이 요소를 보이기/가리기 합니다.
+    </div>
+    <!-- 토글이용 -->
+    <button onclick="toggleVisibility()">보이기/가리기</button>
+    <div id="hideonbush">이 요소의 가시성을 토글합니다.</div>
+<!-- 이미지 가리기 -->
+    <button onclick="showimages()">이미지 보기</button> 
+    <button onclick="hideimages()">이미지 가리기</button>
+    <img id="imgbutton" src="images/지수 꽃.jpg" alt="지수 꽃" style="display: none;" >
+    <!-- 토글 이용 이미지 -->
+
+<button onclick="tgImg()">이미지</button>
+<img id="btImg" src="images/위너 everyday.jpg" alt="#">
+
+<!-- 이미지 변경 -->
+<button onclick="changeImg()">이미지변경</button>
+<img id="myImages" src="images/위너 everyday.jpg" alt="위너">
+
+<button onclick="changeYg()">바꿔</button>
+<img src="images/이찬혁.jpg" alt="찬혁" id="lee">
+
+<button onclick="textChange()">글씨 바꾸기</button>
+<p id="Tcg" >가나다라마</p>
+
+<button onclick="textbold()">글</button>
+<p id="Textbd">글씨크기가 커져요</p>
+
+<button onclick="buttonChange()" id="button1">글자가 바뀐데요</button>

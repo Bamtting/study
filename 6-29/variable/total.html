@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>과일 구매</h1>
+    <div class="item">
+        <img src="images/사과.jpg" alt="apple">
+        <span>사과</span>
+        <input type="number" class="quantity-input" id="appleQuantity" min="0" value="0">
+    </div>
+    <div class="item1">
+        <img src="images/바나나.png" alt="banana">
+        <span>바나나</span>
+        <input type="number" class="quantity-input" id="bananaQuantity" min="0" value="0">
+    </div>
+    <button onclick="calculateTotal()">계산 하기</button>
+    <p class="total-price" id="totalPrice">총 가격 : 0원</p>
+    <script>
+    function calculateTotal(){
+        var appleprice = 2000;
+        var bananaprice = 1000;
+
+        var appleQuantity = parseInt(
+            document.getElementById("appleQuantity").value
+        );
+        var bananaQuantity = parseInt(
+            document.getElementById("bananaQuantity").value
+        );
+        
+        var total = appleprice * appleQuantity + bananaprice * bananaQuantity;
+        // 콤마 추가 함수
+      function addCommas(number) {
+        return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+        document.getElementById("totalPrice").textContent = `총 가격 : ${addCommas(total)}원`
+    }
+    </script>
+</body>
+</html>

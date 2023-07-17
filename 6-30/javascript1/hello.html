@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인사하기</title>
+</head>
+<body>
+    <label for="name">이름을 입력하세요</label>
+    <input type="text" name="" id="name">
+    <button onclick="greet()">인사하기</button>
+    <p id="greeting"></p>
+    <script>
+        function greet() {
+            var nameInput = document.getElementById("name");
+            var name = nameInput.value;
+
+            var greetingElement = document.getElementById("greeting");
+            // greetingElement.textContent = "안녕하세요" + name + "님";
+            greetingElement.textContent = `안녕하세요 ${name} 님`;
+        }
+    </script>
+    <!-- 
+        자료형
+-기본유형 : 숫자형 문자열 논리형
+-복합유형 : 배열 객체
+-특수유형 : undefined null 
+
+숫자형
+var birth year = 5000; 
+
+문자열
+var greeting = "ㅇㅇ";
+
+논리형
+
+참(ture)/거짓(false)
+if/else
+
+배열
+하나의 변수에 여러개의 값을 저장
+<var seasons = ["봄", "여름" , "겨울"]; >
+
+객체
+함수와 속성을 함께 포함합니다.
+< var date = new Date() >
+
+특수 유형
+undefinde - 변수 선언만하고 값을 할당하지않았을때 변수는 undefinde
+null - 값이 유효하지 않을때의 상태입니다.
+
+-->
+
+</body>
+</html>

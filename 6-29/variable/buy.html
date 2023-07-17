@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var apple;
+        var banana;
+        var totle;
+        
+apple = 2000;
+banana = 10000;
+total = apple + banana;
+// 콤마 추가 함수
+function addCommas(number) {
+        return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+document.write(`사과 가격 : ${addCommas(apple)}원 <Br> 바나나 가격 : ${addCommas(banana)}원 <br> 총 가격 : ${addCommas(total)}원`)
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 글씨 없애기 -->
+    <h2>글씨가 없어져요</h2>
+    <p id="demo">여기 글씨가 없어져요</p>
+    
+    <button type="button" onclick="document.getElementById('demo').style.display='none'">사라져요</button>
+    <button type="button" onclick="document.getElementById('demo').style.display='block'">생겨요</button>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">글씨가 커져</button>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='15px'">작아져</button>
+
+    <p id="html"></p>
+    <script>
+    document.getElementById("html").innerHTML = "이건 자바스크립트로 작동해요";
+    </script>
+</body>
+</html>

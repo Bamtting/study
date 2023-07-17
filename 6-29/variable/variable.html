@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>변수</title>
+  </head>
+  <body>
+    <script>
+        // 나이 = 올해연도 - 태어난연도 + 1
+        // 나이
+      var age;
+    //   올해 연도
+      var currentYear = 2023;
+    //   태어난 연도
+      var birthYear; //변수선언
+    //   birthYear = 1998; //변수 값 할당
+    //   var birthYear = 1998; 한꺼번에 선언도 가능
+    //   변수한꺼번에 선언가능
+    // var birthYear, currentYear, age;
+    
+// 입력창
+birthYear = prompt("태어난 연도를 입력해주세요.", "2023");
+age = currentYear - birthYear + 1;
+document.write(currentYear, "년 현재 <br> ", birthYear, "에 태어난 사람의 나이는",  age ,"살 입니다.")
+
+
+      
+      // now,_now,now25,now_25 (O)
+      // 25now, now 25, +now (X)
+      // 변수이름은 의미가 있도록 작성해야한다.
+
+    </script>
+  </body>
+</html>
